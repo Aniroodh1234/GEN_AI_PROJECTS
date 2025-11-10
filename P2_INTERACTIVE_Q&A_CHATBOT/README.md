@@ -15,23 +15,42 @@ This project is designed for developers, researchers, and enthusiasts who want t
 - Clean and intuitive Streamlit interface
 - Secure API key management
 
-## Screenshots
+Screenshots
+<div align="center">
+1. Main Application Interface
+<img src="screenshots/main_interface.png" alt="Main Interface" width="700"/>
+The complete chatbot interface with sidebar settings on the left and main chat area on the right. Users can enter their API key, select models, and adjust parameters before asking questions.
 
-### Main Interface
-![Main Interface](screenshots/main_interface.png)
-*The chatbot's main interface showing the title, input area, and clean layout*
+2. Settings Sidebar Panel
+<img src="screenshots/settings_sidebar.png" alt="Settings Sidebar" width="350"/>
+The settings panel includes:
 
-### Settings Sidebar
-![Settings Panel](screenshots/settings_sidebar.png)
-*Comprehensive settings panel with API key input, model selection, temperature, and max tokens controls*
+API Key Input: Secure password field for Groq API key
+Model Selection: Dropdown to choose from 5 different AI models
+Temperature Slider: Control response creativity (0.0 - 1.0)
+Max Tokens Slider: Set response length (50 - 300 tokens)
 
-### Model Selection
-![Model Dropdown](screenshots/model_selection.png)
-*Multiple Groq AI models available including GPT, Llama, and Qwen variants*
 
-### Sample Query & Response
-![Query Example](screenshots/sample_query.png)
-*Example query about world rivers with detailed, formatted response including comparison table*
+3. Available AI Models
+<img src="screenshots/model_selection.png" alt="Model Selection" width="350"/>
+Multiple powerful Groq models to choose from:
+
+openai/gpt-oss-120b
+llama-3.3-70b-versatile
+meta-llama/llama-4-maverick-17b-128e-instruct
+openai/gpt-oss-safeguard-20b
+qwen/qwen3-32b
+
+
+4. Sample Question & AI Response
+<img src="screenshots/sample_query.png" alt="Sample Query" width="700"/>
+Example showing a question about world rivers with a comprehensive AI-generated response including:
+
+Detailed comparison between Nile and Amazon rivers
+Formatted data table with river statistics
+Well-structured and informative answer
+
+</div>
 
 ## Installation
 
