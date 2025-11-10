@@ -15,14 +15,20 @@ This project is designed for developers, researchers, and enthusiasts who want t
 - Clean and intuitive Streamlit interface
 - Secure API key management
 
-Screenshots
-<div align="center">
+## Screenshots
 1. Main Application Interface
-<img src="screenshots/main_interface.png" alt="Main Interface" width="700"/>
-The complete chatbot interface with sidebar settings on the left and main chat area on the right. Users can enter their API key, select models, and adjust parameters before asking questions.
-
+<p align="center">
+  <img src="screenshots/main_interface.png" alt="Main Interface" width="750"/>
+</p>
+<p align="center">
+  <em>The complete chatbot interface with sidebar settings on the left and main chat area on the right.<br/>
+  Users can enter their API key, select models, and adjust parameters before asking questions.</em>
+</p>
+<br/>
 2. Settings Sidebar Panel
-<img src="screenshots/settings_sidebar.png" alt="Settings Sidebar" width="350"/>
+<p align="center">
+  <img src="screenshots/settings_sidebar.png" alt="Settings Sidebar" width="400"/>
+</p>
 The settings panel includes:
 
 API Key Input: Secure password field for Groq API key
@@ -30,9 +36,11 @@ Model Selection: Dropdown to choose from 5 different AI models
 Temperature Slider: Control response creativity (0.0 - 1.0)
 Max Tokens Slider: Set response length (50 - 300 tokens)
 
-
+<br/>
 3. Available AI Models
-<img src="screenshots/model_selection.png" alt="Model Selection" width="350"/>
+<p align="center">
+  <img src="screenshots/model_selection.png" alt="Model Selection" width="400"/>
+</p>
 Multiple powerful Groq models to choose from:
 
 openai/gpt-oss-120b
@@ -41,16 +49,15 @@ meta-llama/llama-4-maverick-17b-128e-instruct
 openai/gpt-oss-safeguard-20b
 qwen/qwen3-32b
 
-
+<br/>
 4. Sample Question & AI Response
-<img src="screenshots/sample_query.png" alt="Sample Query" width="700"/>
-Example showing a question about world rivers with a comprehensive AI-generated response including:
-
-Detailed comparison between Nile and Amazon rivers
-Formatted data table with river statistics
-Well-structured and informative answer
-
-</div>
+<p align="center">
+  <img src="screenshots/sample_query.png" alt="Sample Query" width="750"/>
+</p>
+<p align="center">
+  <em>Example showing a question about world rivers with a comprehensive AI-generated response.<br/>
+  The response includes detailed comparisons, formatted data tables, and well-structured information.</em>
+</p>
 
 ## Installation
 
