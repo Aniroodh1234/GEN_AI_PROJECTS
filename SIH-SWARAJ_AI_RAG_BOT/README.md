@@ -86,7 +86,7 @@ Processes user queries and returns contextual responses from the knowledge base.
 ```json
 {
   "user_query": "<user message>",
-  "language": "english" | "hindi" | "hinglish"
+  "language": "english" / "hindi" / "hinglish"
 }
 ```
 
